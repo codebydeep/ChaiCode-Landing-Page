@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChaiCode UI</title>
+    <link rel="shortcut icon" href="../assets/chai-white.png" type="image/x-icon">
     <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- header -->
-    <header class="bg-[#E2E2B6] flex justify-between px-8 py-4 md:px-12 md:py-4">
-        <img src="../assets/chaicode-black.svg" alt="" srcset="" class="max-w-24  md:max-w-28">
+    <header class="bg-[#E2E2B6] flex justify-between px-8 py-4 md:px-12 md:py-4 my-font">
+        <img src="../assets/chaicode-black.svg" alt="" srcset="" class="max-w-24  md:max-w-30">
 
         <nav class="hidden md:flex md:justify-between md:list-none gap-4 lg:gap-12 md:text-[1.1rem] font-semibold ">
             <li class="hover:text-[#181C14]">Cohorts</li>
@@ -18,7 +21,7 @@
             <li>Reviews</li>
         </nav>
 
-        <button class="hidden md:block border-2 rounded-2xl px-3 text-center md:px-10 text-[1.1rem] font-semibold">Login</button>
+        <button class="hidden md:block border-2 rounded-xl px-3 text-center md:px-10 text-[1.1rem] font-semibold bg-[#E3651D] text-amber-50">Login</button>
         <div class="block md:hidden"><i class="fa-solid fa-bars"></i></div>
 
         <!-- sidebar -->
@@ -38,5 +41,27 @@
             </ul>
         </div> -->
     </header>
+
+
+    <!-- hero-section -->
+    <section id="hero-section" class="text-amber-50 bg-[#000000] text-center h-fit py-10">
+        <div class="border-2 rounded-xl w-fit m-auto px-10 py-2 md:px-4 md:py-4">Trusted by 1M+ fellow learners</div>
+        <h1 class="my-font text-5xl whitespace-break-spaces font-extrabold text-nowrap md:text-5xl lg:text-7xl w-fit m-auto my-10 ">Consistency & Community</h1>
+        
+        <!-- <p class="px-8 lg:text-[1rem] lg:max-w-[60%] text-wrap m-auto my-5 text-[12px] ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quia quod. Laboriosam reprehenderit sint obcaecati animi numquam dolor harum rem optio quia fuga ipsum tempora pariatur, esse iusto eveniet.</p> -->
+
+        <p class="px-8 lg:text-sm lg:max-w-[60%] text-wrap m-auto my-5 text-[10px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quia quod. Laboriosam reprehenderit sint obcaecati animi numquam dolor harum rem optio quia fuga ipsum tempora pariatur, esse iusto eveniet.</p>
+
+        <div class="border-2 border-[#e3651d] rounded-xl w-fit m-auto px-26 py-2 md:px-8 md:py-4">Live Cohorts</div>
+
+        <div class="border-2 rounded-2xl w-fit m-auto mt-6">
+            <iframe width="300" height="180" src="https://www.youtube.com/embed/yKTEC1Y5bEQ" title="Complete Streamlit course for python developers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="rounded-2xl md:w-[400px] md:h-[180px]"></iframe>
+        </div>
+    </section>
+    <hr>
+
+    
+
+
 </body>
 </html>
