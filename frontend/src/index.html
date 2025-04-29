@@ -9,20 +9,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="">
     <!-- header -->
-    <header class="bg-[#E2E2B6] flex justify-between px-8 py-4 md:px-12 md:py-4 my-font">
-        <img src="../assets/chaicode-black.svg" alt="" srcset="" class="max-w-24  md:max-w-30">
+    <header class="bg-[#E2E2B6] flex justify-between px-8 py-4 md:px-12 md:py-3 my-font  bg-[#e3651d] text-[#ffffff]">
+        <img src="../assets/chaicode-black.svg" alt="" srcset="" class="max-w-24 md:max-w-30">
 
-        <nav class="hidden md:flex md:justify-between md:list-none gap-4 lg:gap-12 md:text-[1.1rem] font-semibold ">
+        <nav class="hidden md:flex md:justify-center items-center md:list-none gap-4 lg:gap-12 md:text-[1.1rem] font-semibold ">
             <li class="hover:text-[#181C14]">Cohorts</li>
             <li>Udemy</li>
             <li>Docs</li>
             <li>Reviews</li>
         </nav>
 
-        <button class="hidden md:block border-2 rounded-xl px-3 text-center md:px-10 text-[1.1rem] font-semibold bg-[#E3651D] text-amber-50">Login</button>
-        <div class="block md:hidden"><i class="fa-solid fa-bars"></i></div>
+        <button class="hidden md:block cursor-pointer border-2 rounded-[5px] px-3 text-center md:px-8 md:py-2 font-semibold border-none bg-[#E3651D] text-[#ffffff] hover:bg-[#ffffff] hover:text-[#000000]">Login</button>
+        <div class="block md:hidden py-2"><i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="py-2"><i class="fas fa-sun"></i></div>
 
         <!-- sidebar -->
         <!-- <div class="hidden inset-0 z-10 md:hidden">
@@ -45,23 +47,21 @@
 
     <!-- hero-section -->
     <section id="hero-section" class="text-amber-50 bg-[#000000] text-center h-fit py-10">
-        <div class="border-2 rounded-xl w-fit m-auto px-10 py-2 md:px-4 md:py-4">Trusted by 1M+ fellow learners</div>
+        <div class="border-2 rounded-xl w-fit m-auto px-10 py-2 md:px-4 md:py-4 hover:border-[#e3651d]">Trusted by 1M+ fellow learners</div>
         <h1 class="my-font text-5xl whitespace-break-spaces font-extrabold text-nowrap md:text-5xl lg:text-7xl w-fit m-auto my-10 ">Consistency & Community</h1>
-        
-        <!-- <p class="px-8 lg:text-[1rem] lg:max-w-[60%] text-wrap m-auto my-5 text-[12px] ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quia quod. Laboriosam reprehenderit sint obcaecati animi numquam dolor harum rem optio quia fuga ipsum tempora pariatur, esse iusto eveniet.</p> -->
 
         <p class="px-8 lg:text-sm lg:max-w-[60%] text-wrap m-auto my-5 text-[10px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quia quod. Laboriosam reprehenderit sint obcaecati animi numquam dolor harum rem optio quia fuga ipsum tempora pariatur, esse iusto eveniet.</p>
 
-        <div class="border-2 border-[#e3651d] rounded-xl w-fit m-auto px-26 py-2 md:px-8 md:py-4">Live Cohorts</div>
+        <div class="border-2 border-[#ffffff] rounded-xl w-fit m-auto px-26 py-2 md:px-8 md:py-4 hover:bg-[#e3651d] hover:border-[#000000]">Live Cohorts</div>
 
-        <div class="border-2 rounded-2xl w-fit m-auto mt-6">
-            <iframe width="300" height="180" src="https://www.youtube.com/embed/yKTEC1Y5bEQ" title="Complete Streamlit course for python developers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="rounded-2xl md:w-[400px] md:h-[180px]"></iframe>
+        <div class="border-2 rounded-2xl w-fit m-auto mt-6 hover:border-[#e3651d]">
+            <iframe width="300" height="180" src="https://www.youtube.com/embed/yKTEC1Y5bEQ" title="Complete Streamlit course for python developers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="rounded-2xl md:w-[400px] md:h-[180px] lg:w-[400px] lg:h-[200px]"></iframe>
         </div>
     </section>
     <hr>
 
     <!-- tweet-section -->
-    <div class="my-font m-auto bg-[#000000]">
+    <div class="my-font m-auto bg-[#1f1f2d]">
         <h1 class="text-4xl text-[#fafafa] text-center font-extrabold py-8 lg:text-6xl lg:py-18">Tweets Love</h1>
 
         <div class="flex gap-4 md:gap-24 py-12 px-12">
@@ -71,17 +71,58 @@
             <div class="item border-2 border-amber-100 max-w-fit rounded-xl">
                 <img src="../assets/tweet-2.png" alt="" srcset="" class="w-50 h-50 rounded-xl lg:w-80 lg:h-80">
             </div>
-            <div class="item">
-                <img src="" alt="" srcset="">
+            <div class="item border-2 border-amber-100 max-w-fit rounded-xl">
+                <img src="../assets/tweet-2.png" alt="" srcset="" class="w-50 h-50 rounded-xl lg:w-80 lg:h-80">
             </div>
-            <div class="item">
-                <img src="" alt="" srcset="">
-            </div>
+            
         </div>
     </div>
 
 
+    <!-- // cohort-section -->
+    <div class="cohort-section bg-black text-amber-50 py-12">
+        <h1 class="w-fit m-auto text-4xl font-extrabold md:text-7xl">Cohorts</h1>
+        <h2 class="w-fit m-auto text-2xl my-4 md:my-6 lg:my-10">Live Training sessions</h2>
 
+        <div class="cards flex flex-col items-center justify-center md:flex-row md:flex-wrap gap-20 md:gap-20 w-fit m-auto mt-20">
+            <div id="card-1" class="border-2 rounded-2xl border-amber-50 h-95 w-80 md:h-100 md:w-80 flex flex-col p-4">
+                <div class="border-2 h-2/3  rounded-2xl"></div>
+                <div class="h-1/3 py-2">
+                    <h2 class="text-xl font-semibold">Web Dev Cohort</h2>
+                    <h3 class="">Lorem ipsum dolor sit amet.</h3>
+                    <h3 class="">49.99 INR</h3>
+                    <button class="bg-[#e3651d] w-6/6 py-2 border-none cursor-pointer rounded-xl m-auto ">Buy Now</button>
+                </div>
+            </div>
+            <div id="card-2" class="border-2 rounded-2xl border-amber-50 h-95 w-80 md:h-100 md:w-80 p-4">
+                <div class="border-2 h-2/3  rounded-2xl"></div>
+                <div class="h-1/3 py-2">
+                    <h2 class="text-xl font-semibold">Web Dev Cohort</h2>
+                    <h3 class="">Lorem ipsum dolor sit amet.</h3>
+                    <h3 class="">49.99 INR</h3>
+                    <button class="bg-[#e3651d] w-6/6 py-2 border-none cursor-pointer rounded-xl m-auto ">Buy Now</button>
+                </div>
+            </div>
+            <div id="card-3" class="border-2 rounded-2xl border-amber-50 h-95 w-80 md:h-100 md:w-80 p-4">
+                <div class="border-2 h-2/3  rounded-2xl"></div>
+                <div class="h-1/3 py-2">
+                    <h2 class="text-xl font-semibold">Web Dev Cohort</h2>
+                    <h3 class="">Lorem ipsum dolor sit amet.</h3>
+                    <h3 class="">49.99 INR</h3>
+                    <button class="bg-[#e3651d] w-6/6 py-2 border-none cursor-pointer rounded-xl m-auto ">Buy Now</button>
+                </div>
+            </div>
+            <div id="card-3" class="border-2 rounded-2xl border-amber-50 h-95 w-80 md:h-100 md:w-80 p-4">
+                <div class="border-2 h-2/3  rounded-2xl"></div>
+                <div class="h-1/3 py-2">
+                    <h2 class="text-xl font-semibold">Web Dev Cohort</h2>
+                    <h3 class="">Lorem ipsum dolor sit amet.</h3>
+                    <h3 class="">49.99 INR</h3>
+                    <button class="bg-[#e3651d] w-6/6 py-2 border-none cursor-pointer rounded-xl m-auto ">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
